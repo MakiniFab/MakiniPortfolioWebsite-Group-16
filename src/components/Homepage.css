@@ -33,11 +33,13 @@ h2 {
     position: absolute;
     left: 100%;
     top: 0px;
-    width: 300%;
+    width: 540%;
     color: white;
     font-size: 16px;
     overflow-y: auto;
+    height: 100%;
 }
+
 .homepage-btn {
     margin-bottom: 5px;
 }
