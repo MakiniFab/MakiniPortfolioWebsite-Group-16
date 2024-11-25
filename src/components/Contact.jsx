@@ -6,9 +6,9 @@ import './Contact.css';
 
 const Contact = () => {
   const contactLinks = {
-    github: 'https://github.com/yourusername',
-    whatsapp: 'https://wa.me/yourphonenumber',
-    linkedin: 'https://linkedin.com/in/yourusername',
+    github: 'https://github.com/MakiniFab',
+    x: 'https://x.com/FarbeanMakini?t=QkttivImqLGG-UOlDk_tmg&s=03',
+    linkedin: 'https://www.linkedin.com/in/farbean-makini-b827542b3?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
   };
 
   return (
@@ -21,7 +21,7 @@ const Contact = () => {
           </a>
         </div>
         <div className="contact-item">
-          <a href={contactLinks.whatsapp} target="_blank" rel="noopener noreferrer">
+          <a href={contactLinks.x} target="_blank" rel="noopener noreferrer">
             <img src={xImage} alt="x" className="contact-image" />
             <p className='contact-p'>X</p>
           </a>
