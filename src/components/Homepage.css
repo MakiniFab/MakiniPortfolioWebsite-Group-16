@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     background: midnightblue;
-    width: 25%;
+    width: 15%;
     height: 100%;
 }
 
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: column;
     top: 170px;
-    font-size: 24px;
+    font-size: 16px;
     padding: 10px;
 }
 
@@ -35,7 +35,7 @@ h2 {
     top: 0px;
     width: 300%;
     color: white;
-    font-size: 24px;
+    font-size: 16px;
     height: 180%;
     border-radius: 10px;
     overflow-y: auto;
