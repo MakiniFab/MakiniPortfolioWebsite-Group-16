@@ -8,10 +8,12 @@
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 780px;
     display: inline-block;
     text-align: left;
-  }
+    left:0px;
+    position: relative;
+}
   
   .project-image {
     width: 100%;

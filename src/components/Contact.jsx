@@ -1,47 +1,38 @@
 import React from 'react';
+import githubImage from '../assets/github.png';
+import xImage from '../assets/ximg.png';
+import linkedinImage from '../assets/linkedin.png';
+import './Contact.css';
 
 const Contact = () => {
   const contactLinks = {
-    github: 'https://github.com/yourusername', // Replace with your GitHub link
-    whatsapp: 'https://wa.me/yourphonenumber', // Replace with your WhatsApp link (E.164 format for phone)
-    linkedin: 'https://linkedin.com/in/yourusername', // Replace with your LinkedIn link
+    github: 'https://github.com/yourusername',
+    whatsapp: 'https://wa.me/yourphonenumber',
+    linkedin: 'https://linkedin.com/in/yourusername',
   };
 
   return (
-    <div style={{ textAlign: 'center', margin: '20px' }}>
-      <h2>Contact Me</h2>
-      <ul style={{ listStyleType: 'none', padding: 0 }}>
-        <li>
-          <a
-            href={contactLinks.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'blue', textDecoration: 'underline' }}
-          >
-            GitHub
+    <div className="contact-container">
+      <div className="contact-links">
+        <div className="contact-item">
+          <a href={contactLinks.github} target="_blank" rel="noopener noreferrer">
+            <img src={githubImage} alt="GitHub" className="contact-image" />
+            <p className='contact-p' >GitHub</p>
           </a>
-        </li>
-        <li>
-          <a
-            href={contactLinks.whatsapp}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'green', textDecoration: 'underline' }}
-          >
-            WhatsApp
+        </div>
+        <div className="contact-item">
+          <a href={contactLinks.whatsapp} target="_blank" rel="noopener noreferrer">
+            <img src={xImage} alt="x" className="contact-image" />
+            <p className='contact-p'>X</p>
           </a>
-        </li>
-        <li>
-          <a
-            href={contactLinks.linkedin}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: 'blue', textDecoration: 'underline' }}
-          >
-            LinkedIn
+        </div>
+        <div className="contact-item">
+          <a href={contactLinks.linkedin} target="_blank" rel="noopener noreferrer">
+            <img src={linkedinImage} alt="LinkedIn" className="contact-image" />
+            <p className='contact-p'>LinkedIn</p>
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   );
 };
