@@ -1,0 +1,45 @@
+.homepage-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: midnightblue;
+    width: 25%;
+    height: 46%;
+}
+
+.homepage-img {
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.homepage-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 170px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.homepage-nav-content {
+    background: black;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 300%;
+    color: white;
+    font-size: 24px;
+    height: 180%;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+.homepage-btn {
+    margin-bottom: 5px;
+}

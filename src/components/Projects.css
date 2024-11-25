@@ -1,0 +1,30 @@
+.projects-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .project-card {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 600px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .project-image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .project-link {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  h3 {
+    text-decoration: underline;
+  }
+  
