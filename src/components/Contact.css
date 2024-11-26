@@ -13,14 +13,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+    position: relative;
+    height: 85px;
+}
   
   .contact-image {
-    width: 150px;
-    height: 100px;
+    width: 70px;
+    height: 50px;
     margin-bottom: 10px;
     position: relative;
-    left: -320px;
+    left: -490px;
 }
   
   .contact-item a {
@@ -33,13 +35,12 @@
   }
 
 .contact-p {
-    background: white;
-    font-size: 32px;
+    background: none;
+    font-size: 20px;
     position: relative;
-    top: -90px;
+    top: -70px;
     padding: 0;
     color: blue;
     text-decoration: underline;
-    left: -145px;
+    left: -465px;
 }
-  

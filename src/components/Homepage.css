@@ -10,8 +10,9 @@
 .homepage-img {
     position: absolute;
     left: 25px;
-    top: 5px;
-    height: 150px;
+    top: 25px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -19,13 +20,15 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    top: 170px;
-    font-size: 16px;
+    top: 150px;
+    font-size: 15px;
     padding: 10px;
 }
 
 h2 {
     text-decoration: underline;
+    position: relative;
+    left: -350px;
 }
 
 .homepage-nav-content {
@@ -35,21 +38,21 @@ h2 {
     top: 0px;
     width: 565%;
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     overflow-y: auto;
     height: 100%;
 }
 
 p {
-    padding: 70px;
+    padding: 10px;
     padding-top: 0;
     line-height: 1.6;
     font-family: 'Arial', sans-serif;
-    font-size: 22px;
+    font-size: 16px;
     color: #333;
     text-align: justify;
     max-width: 800px;
-    margin: 0 auto;
+    margin-left: 100px;
     background-color: #f9f9f9;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -60,7 +63,113 @@ p:hover {
     background-color: #eaeaea;
 }
 
+.homepage-name {
+    background: none;
+    left: 20px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 130px;
+    font-size: 20px;
+    color: white;
+}
 
 .homepage-btn {
     margin-bottom: 5px;
+    font-weight: 900;
 }
+
+.homepage-btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding: 250px;
+    position: relative;
+    top: -210px;
+    left: -50px;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skill-item img {
+    width: 250px;
+    border-radius: 5px;
+    height: 250px;
+    margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    text-align: center;
+    background: none;
+    color: white;
+    position: relative;
+    left: -90px;
+  }  
+
+  #cv-link {
+    position: relative;
+    left: -435px;
+    text-decoration: underline;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .experience-item {
+    text-align: center; 
+  }
+  
+  .experience-item strong {
+    font-size: 3rem; 
+    color: #007BFF; 
+    font-weight: bold;
+  }
+  
+  .experience-item p {
+    margin: 0;
+    font-size: 1rem; 
+    color: #555; 
+  }
+
+  .interests-heading {
+    font-size: 2rem;
+    color: white;
+  }
+  
+  .interests-intro {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .hobbies-list {
+    list-style-type: disc;
+    padding-left: 150px;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .hobbies-list li {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 8px;
+  }  
